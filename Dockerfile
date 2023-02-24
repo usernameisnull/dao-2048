@@ -1,6 +1,6 @@
 # Using a compact OS
 # FROM docker.m.daocloud.io/nginx:1.23.0-alpine
-FROM release.daocloud.io/test-lfj/nginx:v1
+FROM nginx:1.22.1
 
 # RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
